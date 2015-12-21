@@ -1,11 +1,11 @@
 {% extends "base/theme.html" %}
 {% block main_content %}
 <div class="data-layer">
-  <ul>
-  {% for location in object_list %}
-    <li class="location-data" data-latitude="{{ location.position.latitude }}" data-longitude="{{ location.position.longitude }}" data-id="{{ location.id }}">{{ location.title }}</li>
-  {% endfor %}
-  </ul>
+ <ul>
+ {% for location in object_list %}
+ <li class="location-data" data-latitude="{{ location.position.latitude }}" data-longitude="{{ location.position.longitude }}" data-id="{{ location.id }}">{{ location.title }}</li>
+ {% endfor %}
+ </ul>
 </div>
 <div id="map" class="wide-map">
 </div>
