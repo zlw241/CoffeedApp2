@@ -2,8 +2,10 @@ boto==2.36.0
 dj-database-url==0.3.0
 dj-static==0.0.6
 Django==1.7.4
+django-appconf==1.0.1
 django-bootstrap3==6.2.2
 django-etc==0.7.1
+django-geoposition==0.2.2
 django-sitegate==0.10.2
 django-storages==1.1.8
 django-toolbelt==0.0.1
@@ -12,4 +14,5 @@ djangoaddattr==0.0.1
 gunicorn==19.2.1
 Pillow==2.7.0
 psycopg2==2.6
+six==1.10.0
 static3==0.5.1
