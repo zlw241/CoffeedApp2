@@ -13,6 +13,10 @@ body {
     color: #777;
 }
 
+.wide-map {
+    height:400px;
+}
+
 .text-primary {
     color: #fed136;
 }

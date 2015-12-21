@@ -51,7 +51,8 @@ INSTALLED_APPS = (
     'core',
     'widget_tweaks',
     'sitegate',
-    'bootstrap3'
+    'bootstrap3',
+    'geoposition',
 )
 
 MIDDLEWARE_CLASSES = (
